@@ -28,25 +28,21 @@
       <div class="pre-heart"><i class="fa-solid fa-heart"></i></div>
       <h2 class="pre-title">Valeria <em>&amp;</em> Sebastián</h2>
       <p class="pre-sub">21 · 05 · 2028</p>
-      <div class="pre-dots">
-        <span></span><span></span><span></span>
-      </div>
+      <div class="pre-dots"><span></span><span></span><span></span></div>
     </div>
   </div>
 
   <!-- CANVAS PÉTALOS -->
   <canvas id="petals-canvas"></canvas>
 
-  <!-- REPRODUCTOR FLOTANTE DE MÚSICA -->
+  <!-- ── REPRODUCTOR FLOTANTE ── -->
   <div id="music-player" class="music-player">
     <button class="music-btn" id="music-toggle" title="Play / Pausa">
       <i class="fa-solid fa-play" id="music-icon"></i>
     </button>
     <div class="music-info">
       <span class="music-title" id="music-title">Canon en Re — Pachelbel</span>
-      <div class="music-progress-bar">
-        <div class="music-fill" id="music-fill"></div>
-      </div>
+      <div class="music-progress-bar"><div class="music-fill" id="music-fill"></div></div>
     </div>
     <button class="music-btn" id="music-next" title="Siguiente">
       <i class="fa-solid fa-forward-step"></i>
@@ -63,7 +59,7 @@
   </button>
 
   <!-- ═══════════════════════════════════════════
-       NAVBAR
+       NAVBAR — "Canción" removido del menú
   ═══════════════════════════════════════════ -->
   <nav id="navbar">
     <div class="nav-container">
@@ -72,15 +68,14 @@
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#hero"            class="nav-link">Inicio</a></li>
-        <li><a href="#historia"        class="nav-link">Historia</a></li>
-        <li><a href="#novios"          class="nav-link">Nosotros</a></li>
-        <li><a href="#nuestra-cancion" class="nav-link">Canción</a></li>
-        <li><a href="#itinerario"      class="nav-link">Evento</a></li>
-        <li><a href="#padrinos"        class="nav-link">Padrinos</a></li>
-        <li><a href="#galeria"         class="nav-link">Galería</a></li>
-        <li><a href="#regalos"         class="nav-link">Regalos</a></li>
-        <li><a href="#rsvp"            class="nav-link nav-cta">Confirmar asistencia</a></li>
+        <li><a href="#hero"       class="nav-link">Inicio</a></li>
+        <li><a href="#historia"   class="nav-link">Historia</a></li>
+        <li><a href="#novios"     class="nav-link">Nosotros</a></li>
+        <li><a href="#itinerario" class="nav-link">Evento</a></li>
+        <li><a href="#padrinos"   class="nav-link">Padrinos</a></li>
+        <li><a href="#galeria"    class="nav-link">Galería</a></li>
+        <li><a href="#regalos"    class="nav-link">Regalos</a></li>
+        <li><a href="#rsvp"       class="nav-link nav-cta">Confirmar asistencia</a></li>
       </ul>
     </div>
   </nav>
@@ -169,11 +164,10 @@
     </div>
   </section>
 
-  <!-- DIVISOR -->
   <div class="ornament-divider"><span></span><i class="fa-solid fa-heart"></i><span></span></div>
 
   <!-- ═══════════════════════════════════════════
-       CUENTA REGRESIVA — 21 Mayo 2028
+       CUENTA REGRESIVA
   ═══════════════════════════════════════════ -->
   <section id="countdown">
     <div class="countdown-bg"></div>
@@ -181,29 +175,15 @@
     <div class="container cd-inner">
       <p class="section-label light" data-aos="fade-up">El gran día se acerca</p>
       <h2 class="section-title light" data-aos="fade-up" data-aos-delay="80">Faltan solo…</h2>
-
       <div class="countdown-grid">
-        <div class="cd-box">
-          <span class="cd-num" id="cd-days">000</span>
-          <span class="cd-lbl">Días</span>
-        </div>
+        <div class="cd-box"><span class="cd-num" id="cd-days">000</span><span class="cd-lbl">Días</span></div>
         <div class="cd-sep">:</div>
-        <div class="cd-box">
-          <span class="cd-num" id="cd-hours">00</span>
-          <span class="cd-lbl">Horas</span>
-        </div>
+        <div class="cd-box"><span class="cd-num" id="cd-hours">00</span><span class="cd-lbl">Horas</span></div>
         <div class="cd-sep">:</div>
-        <div class="cd-box">
-          <span class="cd-num" id="cd-mins">00</span>
-          <span class="cd-lbl">Minutos</span>
-        </div>
+        <div class="cd-box"><span class="cd-num" id="cd-mins">00</span><span class="cd-lbl">Minutos</span></div>
         <div class="cd-sep">:</div>
-        <div class="cd-box">
-          <span class="cd-num" id="cd-secs">00</span>
-          <span class="cd-lbl">Segundos</span>
-        </div>
+        <div class="cd-box"><span class="cd-num" id="cd-secs">00</span><span class="cd-lbl">Segundos</span></div>
       </div>
-
       <p class="cd-sub" data-aos="fade-up" data-aos-delay="200">
         <i class="fa-solid fa-location-dot"></i> 21 de Mayo 2028 · Mérida, Yucatán
       </p>
@@ -213,106 +193,95 @@
   <div class="ornament-divider"><span></span><i class="fa-regular fa-heart"></i><span></span></div>
 
   <!-- ═══════════════════════════════════════════
-       NUESTRA CANCIÓN — Sección dedicada
+       NUESTRA CANCIÓN — diseño minimalista v2
   ═══════════════════════════════════════════ -->
-  <section id="nuestra-cancion" class="section-light">
+  <section id="nuestra-cancion" class="section-light sc-section">
     <div class="container">
       <p class="section-label" data-aos="fade-up">Nuestra melodía</p>
       <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">Nuestra canción</h2>
-      <p class="section-text" data-aos="fade-up" data-aos-delay="120">
-        La música que marcó cada momento de nuestra historia.<br/>
-        Déjate llevar por las notas que nos unieron.
+      <p class="section-text" data-aos="fade-up" data-aos-delay="100">
+        La música que marcó cada momento de nuestra historia.
       </p>
 
-      <div class="song-player-wrap" data-aos="fade-up" data-aos-delay="200">
+      <div class="sc-card" data-aos="fade-up" data-aos-delay="160">
 
-        <!-- Panel izquierdo: arte y info -->
-        <div class="sp-artwork-col">
-          <div class="sp-artwork">
-            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&q=85" alt="Nuestra canción" loading="lazy"/>
-            <div class="sp-artwork-overlay">
-              <i class="fa-solid fa-music"></i>
-            </div>
-            <div class="sp-vinyl"></div>
+        <!-- Portada giratoria -->
+        <div class="sc-cover-wrap">
+          <div class="sc-disc" id="sc-disc">
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&q=85"
+                 alt="Portada" id="sc-cover-img" loading="lazy"/>
+            <div class="sc-disc-hole"></div>
           </div>
-          <div class="sp-hearts">
-            <i class="fa-solid fa-heart"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-heart"></i>
-          </div>
+          <div class="sc-cover-glow"></div>
         </div>
 
-        <!-- Panel derecho: controles -->
-        <div class="sp-controls-col">
+        <!-- Controles -->
+        <div class="sc-info">
 
-          <!-- Lista de canciones -->
-          <div class="sp-tracklist">
-            <p class="sp-tracklist-title"><i class="fa-solid fa-list-music"></i> Lista de reproducción</p>
-            <div class="sp-track sp-track-active" data-index="0"
+          <div class="sc-meta">
+            <span class="sc-now-title" id="sp-now-name">Canon en Re</span>
+            <span class="sc-now-artist" id="sp-now-artist">Pachelbel</span>
+          </div>
+
+          <!-- Progreso -->
+          <div class="sc-progress-wrap">
+            <span class="sc-time" id="sp-current">0:00</span>
+            <div class="sc-bar" id="sp-progress-bar">
+              <div class="sc-bar-fill" id="sp-progress-fill"></div>
+              <div class="sc-bar-thumb" id="sp-progress-thumb"></div>
+            </div>
+            <span class="sc-time" id="sp-total">--:--</span>
+          </div>
+
+          <!-- Botones -->
+          <div class="sc-controls">
+            <button class="sc-btn sc-btn-sm" id="sp-prev" title="Anterior">
+              <i class="fa-solid fa-backward-step"></i>
+            </button>
+            <button class="sc-btn sc-btn-play" id="sp-play" title="Play / Pausa">
+              <i class="fa-solid fa-play" id="sp-play-icon"></i>
+            </button>
+            <button class="sc-btn sc-btn-sm" id="sp-next" title="Siguiente">
+              <i class="fa-solid fa-forward-step"></i>
+            </button>
+          </div>
+
+          <!-- Volumen -->
+          <div class="sc-volume">
+            <i class="fa-solid fa-volume-low sc-vol-ico" id="sp-mute"></i>
+            <input type="range" class="sc-vol-slider" id="sp-volume" min="0" max="1" step="0.05" value="0.8"/>
+            <i class="fa-solid fa-volume-high sc-vol-ico"></i>
+          </div>
+
+          <!-- Tracklist pills -->
+          <div class="sc-tracklist">
+            <div class="sc-track sc-track-active" data-index="0"
                  data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-                 data-title="Canon en Re" data-artist="Pachelbel">
-              <div class="sp-track-num">01</div>
-              <div class="sp-track-info">
-                <span class="sp-track-name">Canon en Re</span>
-                <span class="sp-track-artist">Pachelbel</span>
+                 data-title="Canon en Re" data-artist="Pachelbel"
+                 data-cover="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&q=85">
+              <span class="sc-track-dot"></span>
+              <div class="sc-track-text">
+                <span class="sc-track-name">Canon en Re</span>
+                <span class="sc-track-art">Pachelbel</span>
               </div>
-              <div class="sp-track-playing"><i class="fa-solid fa-volume-high"></i></div>
+              <span class="sc-track-eq" id="sc-eq-0"><i class="fa-solid fa-wave-square"></i></span>
             </div>
-            <div class="sp-track" data-index="1"
+            <div class="sc-track" data-index="1"
                  data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
-                 data-title="A Thousand Years" data-artist="Instrumental">
-              <div class="sp-track-num">02</div>
-              <div class="sp-track-info">
-                <span class="sp-track-name">A Thousand Years</span>
-                <span class="sp-track-artist">Instrumental</span>
+                 data-title="A Thousand Years" data-artist="Instrumental"
+                 data-cover="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=500&q=85">
+              <span class="sc-track-dot"></span>
+              <div class="sc-track-text">
+                <span class="sc-track-name">A Thousand Years</span>
+                <span class="sc-track-art">Instrumental</span>
               </div>
-              <div class="sp-track-playing"><i class="fa-solid fa-volume-high"></i></div>
+              <span class="sc-track-eq" id="sc-eq-1"><i class="fa-solid fa-wave-square"></i></span>
             </div>
           </div>
 
-          <!-- Reproductor principal -->
-          <div class="sp-player">
-            <div class="sp-now-playing">
-              <span class="sp-now-name" id="sp-now-name">Canon en Re</span>
-              <span class="sp-now-artist" id="sp-now-artist">Pachelbel</span>
-            </div>
-
-            <!-- Barra de progreso -->
-            <div class="sp-progress-wrap">
-              <span class="sp-time-current" id="sp-current">0:00</span>
-              <div class="sp-progress-bar" id="sp-progress-bar">
-                <div class="sp-progress-fill" id="sp-progress-fill"></div>
-                <div class="sp-progress-thumb" id="sp-progress-thumb"></div>
-              </div>
-              <span class="sp-time-total" id="sp-total">--:--</span>
-            </div>
-
-            <!-- Botones -->
-            <div class="sp-btns">
-              <button class="sp-btn sp-btn-sm" id="sp-prev" title="Anterior">
-                <i class="fa-solid fa-backward-step"></i>
-              </button>
-              <button class="sp-btn sp-btn-main" id="sp-play" title="Play / Pausa">
-                <i class="fa-solid fa-play" id="sp-play-icon"></i>
-              </button>
-              <button class="sp-btn sp-btn-sm" id="sp-next" title="Siguiente">
-                <i class="fa-solid fa-forward-step"></i>
-              </button>
-            </div>
-
-            <!-- Volumen -->
-            <div class="sp-volume">
-              <i class="fa-solid fa-volume-low sp-vol-icon" id="sp-mute"></i>
-              <input type="range" class="sp-vol-range" id="sp-volume" min="0" max="1" step="0.05" value="0.8"/>
-              <i class="fa-solid fa-volume-high sp-vol-icon"></i>
-            </div>
-          </div>
-
-          <!-- Audio oculto -->
-          <audio id="sp-audio"></audio>
-
-        </div>
-      </div>
+        </div><!-- /sc-info -->
+        <audio id="sp-audio"></audio>
+      </div><!-- /sc-card -->
     </div>
   </section>
 
@@ -339,9 +308,7 @@
         <p class="historia-intro">
           Nos conocimos cuando menos lo esperábamos, y desde ese momento comenzamos a escribir la historia más bonita de nuestras vidas.
         </p>
-        <p class="historia-body">
-          Entre risas, viajes, sueños y aventuras… descubrimos que el hogar siempre ha sido estar juntos.
-        </p>
+        <p class="historia-body">Entre risas, viajes, sueños y aventuras… descubrimos que el hogar siempre ha sido estar juntos.</p>
         <div class="historia-tl">
           <div class="htl-item">
             <div class="htl-dot"><i class="fa-solid fa-star"></i></div>
@@ -375,8 +342,9 @@
   <div class="ornament-divider"><span></span><i class="fa-solid fa-heart"></i><span></span></div>
 
   <!-- ═══════════════════════════════════════════
-       LOS PROTAGONISTAS / NOSOTROS
-       NOTA: data-aos removido de novio-card para evitar conflicto con GSAP
+       NOSOTROS — tarjetas con efecto entrada lado a lado
+       novio-card--left  → GSAP entra desde izquierda
+       novio-card--right → GSAP entra desde derecha
   ═══════════════════════════════════════════ -->
   <section id="novios" class="section-light">
     <div class="container">
@@ -385,8 +353,8 @@
 
       <div class="novios-wrap">
 
-        <!-- NOVIA -->
-        <div class="novio-card">
+        <!-- NOVIA — entra desde la izquierda -->
+        <div class="novio-card novio-card--left">
           <div class="novio-frame">
             <img src="https://images.unsplash.com/photo-1521070327892-c38cd5637e47?w=700&q=85" alt="Valeria"/>
             <div class="novio-frame-grad"></div>
@@ -415,8 +383,8 @@
           <p class="nm-date">21 · 05 · 2028</p>
         </div>
 
-        <!-- NOVIO -->
-        <div class="novio-card">
+        <!-- NOVIO — entra desde la derecha -->
+        <div class="novio-card novio-card--right">
           <div class="novio-frame">
             <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&q=85" alt="Sebastián"/>
             <div class="novio-frame-grad"></div>
@@ -442,8 +410,7 @@
   <div class="ornament-divider"><span></span><i class="fa-regular fa-heart"></i><span></span></div>
 
   <!-- ═══════════════════════════════════════════
-       ITINERARIO — Timeline vertical elegante
-       NOTA: data-aos removido de tl-item para evitar conflicto con GSAP
+       ITINERARIO — Timeline con imágenes en cada tarjeta
   ═══════════════════════════════════════════ -->
   <section id="itinerario" class="section-cream">
     <div class="container">
@@ -451,7 +418,7 @@
       <h2 class="section-title" data-aos="fade-up" data-aos-delay="60">Itinerario</h2>
       <p class="section-text" data-aos="fade-up" data-aos-delay="120">Después de la ceremonia, celebremos juntos con amor, música y alegría.</p>
 
-      <div class="timeline-wrap" data-aos="fade-up" data-aos-delay="160">
+      <div class="timeline-wrap">
         <div class="tl-spine"></div>
 
         <!-- Paso 1 — izquierda -->
@@ -461,13 +428,19 @@
             <div class="tl-node-pulse"></div>
           </div>
           <div class="tl-card">
-            <div class="tl-time">2:00 PM</div>
-            <h3>Preparativos</h3>
-            <p>Los novios se preparan para el día más especial de sus vidas con familia y amigos cercanos.</p>
-            <div class="tl-loc"><i class="fa-solid fa-location-dot"></i> Mérida, Yucatán</div>
-            <a href="https://maps.google.com/?q=Merida+Yucatan+Mexico" target="_blank" rel="noopener" class="btn-maps">
-              <i class="fa-solid fa-map-location-dot"></i> Ver en Maps
-            </a>
+            <div class="tl-card-img">
+              <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=700&q=80" alt="Preparativos" loading="lazy"/>
+              <div class="tl-card-img-grad"></div>
+              <div class="tl-card-img-badge">2:00 PM</div>
+            </div>
+            <div class="tl-card-body">
+              <h3>Preparativos</h3>
+              <p>Los novios se preparan para el día más especial de sus vidas con familia y amigos cercanos.</p>
+              <div class="tl-loc"><i class="fa-solid fa-location-dot"></i> Mérida, Yucatán</div>
+              <a href="https://maps.google.com/?q=Merida+Yucatan+Mexico" target="_blank" rel="noopener" class="btn-maps">
+                <i class="fa-solid fa-map-location-dot"></i> Ver en Maps
+              </a>
+            </div>
           </div>
         </div>
 
@@ -478,13 +451,19 @@
             <div class="tl-node-pulse"></div>
           </div>
           <div class="tl-card">
-            <div class="tl-time">5:00 PM</div>
-            <h3>Ceremonia religiosa</h3>
-            <p>Nos unimos ante Dios y nuestros seres queridos en la hermosa Iglesia San Juan de Mérida.</p>
-            <div class="tl-loc"><i class="fa-solid fa-location-dot"></i> Iglesia San Juan</div>
-            <a href="https://maps.google.com/?q=Iglesia+San+Juan+Merida+Yucatan" target="_blank" rel="noopener" class="btn-maps">
-              <i class="fa-solid fa-map-location-dot"></i> Ver en Maps
-            </a>
+            <div class="tl-card-img">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=700&q=80" alt="Ceremonia" loading="lazy"/>
+              <div class="tl-card-img-grad"></div>
+              <div class="tl-card-img-badge">5:00 PM</div>
+            </div>
+            <div class="tl-card-body">
+              <h3>Ceremonia religiosa</h3>
+              <p>Nos unimos ante Dios y nuestros seres queridos en la hermosa Iglesia San Juan de Mérida.</p>
+              <div class="tl-loc"><i class="fa-solid fa-location-dot"></i> Iglesia San Juan</div>
+              <a href="https://maps.google.com/?q=Iglesia+San+Juan+Merida+Yucatan" target="_blank" rel="noopener" class="btn-maps">
+                <i class="fa-solid fa-map-location-dot"></i> Ver en Maps
+              </a>
+            </div>
           </div>
         </div>
 
@@ -495,13 +474,19 @@
             <div class="tl-node-pulse"></div>
           </div>
           <div class="tl-card">
-            <div class="tl-time">7:00 PM</div>
-            <h3>Recepción</h3>
-            <p>Cena elegante, brindis y los primeros momentos como marido y mujer rodeados de amor.</p>
-            <div class="tl-loc"><i class="fa-solid fa-location-dot"></i> Hacienda San Pedro</div>
-            <a href="https://maps.google.com/?q=Hacienda+San+Pedro+Merida+Yucatan" target="_blank" rel="noopener" class="btn-maps">
-              <i class="fa-solid fa-map-location-dot"></i> Ver en Maps
-            </a>
+            <div class="tl-card-img">
+              <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=700&q=80" alt="Recepción" loading="lazy"/>
+              <div class="tl-card-img-grad"></div>
+              <div class="tl-card-img-badge">7:00 PM</div>
+            </div>
+            <div class="tl-card-body">
+              <h3>Recepción</h3>
+              <p>Cena elegante, brindis y los primeros momentos como marido y mujer rodeados de amor.</p>
+              <div class="tl-loc"><i class="fa-solid fa-location-dot"></i> Hacienda San Pedro</div>
+              <a href="https://maps.google.com/?q=Hacienda+San+Pedro+Merida+Yucatan" target="_blank" rel="noopener" class="btn-maps">
+                <i class="fa-solid fa-map-location-dot"></i> Ver en Maps
+              </a>
+            </div>
           </div>
         </div>
 
@@ -512,13 +497,19 @@
             <div class="tl-node-pulse"></div>
           </div>
           <div class="tl-card">
-            <div class="tl-time">9:00 PM</div>
-            <h3>¡Fiesta!</h3>
-            <p>Música, baile y mucha alegría. ¡La noche que recordaremos toda la vida comienza aquí!</p>
-            <div class="tl-loc"><i class="fa-solid fa-location-dot"></i> Hacienda San Pedro</div>
-            <a href="https://maps.google.com/?q=Hacienda+San+Pedro+Merida+Yucatan" target="_blank" rel="noopener" class="btn-maps">
-              <i class="fa-solid fa-map-location-dot"></i> Ver en Maps
-            </a>
+            <div class="tl-card-img">
+              <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=700&q=80" alt="Fiesta" loading="lazy"/>
+              <div class="tl-card-img-grad"></div>
+              <div class="tl-card-img-badge">9:00 PM</div>
+            </div>
+            <div class="tl-card-body">
+              <h3>¡Fiesta!</h3>
+              <p>Música, baile y mucha alegría. ¡La noche que recordaremos toda la vida comienza aquí!</p>
+              <div class="tl-loc"><i class="fa-solid fa-location-dot"></i> Hacienda San Pedro</div>
+              <a href="https://maps.google.com/?q=Hacienda+San+Pedro+Merida+Yucatan" target="_blank" rel="noopener" class="btn-maps">
+                <i class="fa-solid fa-map-location-dot"></i> Ver en Maps
+              </a>
+            </div>
           </div>
         </div>
 
@@ -542,7 +533,7 @@
         <div class="te-img-b"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=500&q=80" alt="Anillos" loading="lazy"/></div>
       </div>
       <div class="te-text" data-aos="fade-left" data-aos-delay="100">
-        <p>Tu presencia hará que este día sea aún más especial. Cada persona que nos acompañe es parte de nuestra historia, y queremos compartir con ustedes el momento más feliz de nuestras vidas.</p>
+        <p>Tu presencia hará que este día sea aún más especial. Cada persona que nos acompañe es parte de nuestra historia.</p>
         <p>Nos vemos en Mérida, rodeados de flores, risas y todo el amor del mundo.</p>
         <div class="te-feats">
           <div class="te-feat"><i class="fa-solid fa-utensils"></i><span>Cena gourmet</span></div>
@@ -562,52 +553,68 @@
   <div class="ornament-divider"><span></span><i class="fa-regular fa-heart"></i><span></span></div>
 
   <!-- ═══════════════════════════════════════════
-       VESTIMENTA
+       VESTIMENTA — fondo fotográfico con overlay café
   ═══════════════════════════════════════════ -->
-  <section id="vestimenta" class="section-gold">
-    <div class="container">
+  <section id="vestimenta" class="section-vest">
+    <div class="vest-bg-img"></div>
+    <div class="vest-bg-overlay"></div>
+    <div class="container vest-content">
       <p class="section-label light" data-aos="fade-up">Dress code</p>
       <h2 class="section-title light" data-aos="fade-up" data-aos-delay="60">Código de Vestimenta</h2>
       <p class="vest-formal" data-aos="fade-up" data-aos-delay="100">✦ Formal / Elegante ✦</p>
 
       <div class="vest-grid">
 
+        <!-- Caballeros -->
         <div class="vest-card" data-aos="fade-right" data-aos-delay="80">
-          <div class="vest-img-wrap"><img src="https://images.unsplash.com/photo-1594938298603-c8148c4b4f12?w=600&q=80" alt="Caballero elegante" loading="lazy"/><div class="vest-img-grad"></div></div>
+          <div class="vest-img-wrap">
+            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4b4f12?w=600&q=80" alt="Caballero elegante" loading="lazy"/>
+            <div class="vest-img-grad"></div>
+          </div>
           <div class="vest-body">
-            <i class="fa-solid fa-user-tie"></i>
+            <i class="fa-solid fa-user-tie vest-icon"></i>
             <h4>Caballeros</h4>
-            <p>Traje, smoking o guayabera elegante. Colores: gris, azul marino o negro.</p>
-            <div class="vest-chips">
-              <span style="background:#2c3e50;color:#fff">Azul marino</span>
-              <span style="background:#555;color:#fff">Gris</span>
-              <span style="background:#1a1a1a;color:#fff">Negro</span>
+            <p>Traje, smoking o guayabera elegante.</p>
+            <div class="vest-palette-row">
+              <div class="vpr-item"><span class="vpr-dot" style="background:#1a2744"></span><small>Azul marino</small></div>
+              <div class="vpr-item"><span class="vpr-dot" style="background:#4a4a4a"></span><small>Gris</small></div>
+              <div class="vpr-item"><span class="vpr-dot" style="background:#1a1a1a"></span><small>Negro</small></div>
+              <div class="vpr-item"><span class="vpr-dot" style="background:#c9a96e"></span><small>Dorado</small></div>
             </div>
           </div>
         </div>
 
+        <!-- Paleta central -->
         <div class="vest-palette-col" data-aos="zoom-in" data-aos-delay="160">
-          <p class="vp-title">Paleta sugerida</p>
-          <div class="vp-swatches">
-            <div class="vp-sw"><span style="background:#c8956c"></span><small>Café pastel</small></div>
-            <div class="vp-sw"><span style="background:#e8d5b7"></span><small>Beige</small></div>
-            <div class="vp-sw"><span style="background:#fff8f0"></span><small>Blanco cálido</small></div>
-            <div class="vp-sw"><span style="background:#c9a96e"></span><small>Dorado suave</small></div>
-            <div class="vp-sw"><span style="background:#f5e6d0"></span><small>Champagne</small></div>
+          <div class="vp-glass">
+            <p class="vp-title"><i class="fa-solid fa-palette"></i> Paleta del evento</p>
+            <div class="vp-swatches-v2">
+              <div class="vp-sw-v2"><div class="vp-color-block" style="background:#f5e6d0"></div><span>Champagne</span></div>
+              <div class="vp-sw-v2"><div class="vp-color-block" style="background:#e8d5b7"></div><span>Beige</span></div>
+              <div class="vp-sw-v2"><div class="vp-color-block" style="background:#c9a96e"></div><span>Dorado</span></div>
+              <div class="vp-sw-v2"><div class="vp-color-block" style="background:#d4a8b4"></div><span>Rosa suave</span></div>
+              <div class="vp-sw-v2"><div class="vp-color-block" style="background:#c8956c"></div><span>Café pastel</span></div>
+              <div class="vp-sw-v2"><div class="vp-color-block" style="background:#fff8f0;border:1px solid rgba(255,255,255,.3)"></div><span>Blanco cálido</span></div>
+            </div>
+            <p class="vp-note-v2"><i class="fa-solid fa-circle-exclamation"></i> Por favor evita el blanco total para las damas</p>
           </div>
-          <p class="vp-note">✦ Por favor evita el blanco total para las damas ✦</p>
         </div>
 
+        <!-- Damas -->
         <div class="vest-card" data-aos="fade-left" data-aos-delay="80">
-          <div class="vest-img-wrap"><img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80" alt="Dama elegante" loading="lazy"/><div class="vest-img-grad"></div></div>
+          <div class="vest-img-wrap">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80" alt="Dama elegante" loading="lazy"/>
+            <div class="vest-img-grad"></div>
+          </div>
           <div class="vest-body">
-            <i class="fa-solid fa-person-dress"></i>
+            <i class="fa-solid fa-person-dress vest-icon"></i>
             <h4>Damas</h4>
-            <p>Vestido largo o midi elegante. Champagne, rosado suave, dorado o beige.</p>
-            <div class="vest-chips">
-              <span style="background:#e8c9a0;color:#5a3d28">Champagne</span>
-              <span style="background:#d4a8b4;color:#fff">Rosa</span>
-              <span style="background:#c9a96e;color:#fff">Dorado</span>
+            <p>Vestido largo o midi elegante.</p>
+            <div class="vest-palette-row">
+              <div class="vpr-item"><span class="vpr-dot" style="background:#f5e6d0"></span><small>Champagne</small></div>
+              <div class="vpr-item"><span class="vpr-dot" style="background:#d4a8b4"></span><small>Rosa</small></div>
+              <div class="vpr-item"><span class="vpr-dot" style="background:#c9a96e"></span><small>Dorado</small></div>
+              <div class="vpr-item"><span class="vpr-dot" style="background:#e8d5b7"></span><small>Beige</small></div>
             </div>
           </div>
         </div>
@@ -620,7 +627,6 @@
 
   <!-- ═══════════════════════════════════════════
        PADRINOS
-       NOTA: data-aos removido de padrino-card para evitar conflicto con GSAP
   ═══════════════════════════════════════════ -->
   <section id="padrinos" class="section-cream">
     <div class="container">
@@ -631,10 +637,7 @@
       <p class="padrinos-sub" data-aos="fade-up">✦ Padrinos ✦</p>
       <div class="padrinos-grid">
         <div class="padrino-card">
-          <div class="padrino-img">
-            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Carlos Mendoza" loading="lazy"/>
-            <div class="padrino-img-grad"></div>
-          </div>
+          <div class="padrino-img"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Carlos Mendoza" loading="lazy"/><div class="padrino-img-grad"></div></div>
           <div class="padrino-body">
             <span class="padrino-rol">Padrino de Lazo</span>
             <h4>Carlos Mendoza</h4>
@@ -646,10 +649,7 @@
           </div>
         </div>
         <div class="padrino-card">
-          <div class="padrino-img">
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Roberto García" loading="lazy"/>
-            <div class="padrino-img-grad"></div>
-          </div>
+          <div class="padrino-img"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Roberto García" loading="lazy"/><div class="padrino-img-grad"></div></div>
           <div class="padrino-body">
             <span class="padrino-rol">Padrino de Arras</span>
             <h4>Roberto García</h4>
@@ -665,10 +665,7 @@
       <p class="padrinos-sub" data-aos="fade-up">✦ Madrinas ✦</p>
       <div class="padrinos-grid">
         <div class="padrino-card">
-          <div class="padrino-img">
-            <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=80" alt="Ana López" loading="lazy"/>
-            <div class="padrino-img-grad"></div>
-          </div>
+          <div class="padrino-img"><img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=80" alt="Ana López" loading="lazy"/><div class="padrino-img-grad"></div></div>
           <div class="padrino-body">
             <span class="padrino-rol">Madrina de Ramos</span>
             <h4>Ana López</h4>
@@ -680,10 +677,7 @@
           </div>
         </div>
         <div class="padrino-card">
-          <div class="padrino-img">
-            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=80" alt="Sofía Ramírez" loading="lazy"/>
-            <div class="padrino-img-grad"></div>
-          </div>
+          <div class="padrino-img"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=80" alt="Sofía Ramírez" loading="lazy"/><div class="padrino-img-grad"></div></div>
           <div class="padrino-body">
             <span class="padrino-rol">Madrina de Velación</span>
             <h4>Sofía Ramírez</h4>
@@ -701,7 +695,7 @@
   <div class="ornament-divider"><span></span><i class="fa-regular fa-heart"></i><span></span></div>
 
   <!-- ═══════════════════════════════════════════
-       GALERÍA
+       GALERÍA — grid mejorado + lightbox fluido
   ═══════════════════════════════════════════ -->
   <section id="galeria" class="section-light">
     <div class="container">
@@ -710,7 +704,7 @@
       <p class="section-text" data-aos="fade-up" data-aos-delay="120">Momentos capturados que forman parte de nuestra historia.</p>
     </div>
 
-    <div class="gallery-grid">
+    <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
       <div class="gi gi-tall" data-index="0"><img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&q=80" alt="Foto 1" loading="lazy"/><div class="gi-hover"><i class="fa-solid fa-expand"></i></div></div>
       <div class="gi" data-index="1"><img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?w=600&q=80" alt="Foto 2" loading="lazy"/><div class="gi-hover"><i class="fa-solid fa-expand"></i></div></div>
       <div class="gi" data-index="2"><img src="https://images.unsplash.com/photo-1568695888806-4a7f68e46b7e?w=600&q=80" alt="Foto 3" loading="lazy"/><div class="gi-hover"><i class="fa-solid fa-expand"></i></div></div>
@@ -723,15 +717,21 @@
     </div>
   </section>
 
-  <!-- LIGHTBOX -->
-  <div id="lightbox" class="lightbox">
-    <div class="lb-backdrop" onclick="closeLightbox()"></div>
+  <!-- LIGHTBOX MEJORADO -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <div class="lb-backdrop" id="lb-backdrop"></div>
     <div class="lb-box">
-      <button class="lb-close" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></button>
-      <button class="lb-nav lb-prev" onclick="lightboxNav(-1)"><i class="fa-solid fa-chevron-left"></i></button>
-      <div class="lb-img-wrap"><img id="lb-img" src="" alt=""/></div>
-      <button class="lb-nav lb-next" onclick="lightboxNav(1)"><i class="fa-solid fa-chevron-right"></i></button>
-      <div class="lb-count" id="lb-count"></div>
+      <button class="lb-close" id="lb-close" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+      <button class="lb-nav lb-prev" id="lb-prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="lb-img-wrap" id="lb-img-wrap">
+        <div class="lb-spinner" id="lb-spinner"><i class="fa-solid fa-circle-notch fa-spin"></i></div>
+        <img id="lb-img" src="" alt="" draggable="false"/>
+      </div>
+      <button class="lb-nav lb-next" id="lb-next" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+      <div class="lb-footer">
+        <div class="lb-count" id="lb-count">1 / 9</div>
+        <div class="lb-thumbs" id="lb-thumbs"></div>
+      </div>
     </div>
   </div>
 
@@ -739,7 +739,6 @@
 
   <!-- ═══════════════════════════════════════════
        MESA DE REGALOS
-       NOTA: data-aos removido de reg-card para evitar conflicto con GSAP
   ═══════════════════════════════════════════ -->
   <section id="regalos" class="section-cream">
     <div class="container">
@@ -748,7 +747,6 @@
       <p class="section-text" data-aos="fade-up" data-aos-delay="120">Tu presencia es nuestro mejor regalo,<br/>pero si deseas tener un detalle con nosotros…</p>
 
       <div class="regalos-grid">
-
         <div class="reg-card">
           <div class="reg-icon reg-amazon"><i class="fa-brands fa-amazon"></i></div>
           <span class="reg-tag">Lista en línea</span>
@@ -760,7 +758,6 @@
           </ul>
           <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Ver lista</a>
         </div>
-
         <div class="reg-card reg-featured">
           <div class="reg-icon reg-liverpool"><i class="fa-solid fa-bag-shopping"></i></div>
           <span class="reg-tag reg-tag-gold">✦ Más popular</span>
@@ -772,7 +769,6 @@
           </ul>
           <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Ver lista</a>
         </div>
-
         <div class="reg-card">
           <div class="reg-icon reg-transfer"><i class="fa-solid fa-mobile-screen-button"></i></div>
           <span class="reg-tag">Directo</span>
@@ -780,47 +776,33 @@
           <p>Envíanos un detalle directamente. Con todo nuestro cariño lo recibimos con gratitud.</p>
           <ul class="reg-list">
             <li><i class="fa-solid fa-check"></i> BBVA / SPEI</li>
-            <li><i class="fa-solid fa-check"></i> Datos en RSVP</li>
+            <li><i class="fa-solid fa-check"></i> Datos al instante</li>
           </ul>
-          <!-- Modal de datos bancarios (inline) -->
           <button class="btn btn-primary" onclick="document.getElementById('bank-modal').classList.add('active')">
             <i class="fa-solid fa-qrcode"></i> Ver datos
           </button>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- MODAL TRANSFERENCIA BANCARIA -->
+  <!-- MODAL TRANSFERENCIA -->
   <div id="bank-modal" class="bank-modal">
     <div class="bank-modal-backdrop" onclick="document.getElementById('bank-modal').classList.remove('active')"></div>
     <div class="bank-modal-box">
-      <button class="bank-modal-close" onclick="document.getElementById('bank-modal').classList.remove('active')">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
+      <button class="bank-modal-close" onclick="document.getElementById('bank-modal').classList.remove('active')"><i class="fa-solid fa-xmark"></i></button>
       <div class="bank-modal-orn"><span></span><i class="fa-solid fa-heart"></i><span></span></div>
       <h3>Datos para transferencia</h3>
       <p class="bank-modal-sub">Puedes enviarnos un regalo directamente a nuestra cuenta.</p>
-      <div class="bank-detail">
-        <span class="bank-lbl">Banco</span>
-        <span class="bank-val">BBVA México</span>
-      </div>
-      <div class="bank-detail">
-        <span class="bank-lbl">Titular</span>
-        <span class="bank-val">Valeria González</span>
-      </div>
+      <div class="bank-detail"><span class="bank-lbl">Banco</span><span class="bank-val">BBVA México</span></div>
+      <div class="bank-detail"><span class="bank-lbl">Titular</span><span class="bank-val">Valeria González</span></div>
       <div class="bank-detail">
         <span class="bank-lbl">Número de cuenta</span>
-        <span class="bank-val bank-copy" id="bank-account" onclick="copyBank('bank-account')">
-          1234 5678 9012 3456 <i class="fa-regular fa-copy"></i>
-        </span>
+        <span class="bank-val bank-copy" id="bank-account" onclick="copyBank('bank-account')">1234 5678 9012 3456 <i class="fa-regular fa-copy"></i></span>
       </div>
       <div class="bank-detail">
         <span class="bank-lbl">CLABE interbancaria</span>
-        <span class="bank-val bank-copy" id="bank-clabe" onclick="copyBank('bank-clabe')">
-          014180123456789012 <i class="fa-regular fa-copy"></i>
-        </span>
+        <span class="bank-val bank-copy" id="bank-clabe" onclick="copyBank('bank-clabe')">014180123456789012 <i class="fa-regular fa-copy"></i></span>
       </div>
       <p class="bank-note">✦ Con todo nuestro cariño lo recibimos con gratitud ✦</p>
     </div>
@@ -838,16 +820,11 @@
       <p class="section-text" data-aos="fade-up" data-aos-delay="120">
         Por favor confirma antes del <strong>1 de Abril de 2028</strong>.
       </p>
-
       <div class="rsvp-layout">
         <div class="rsvp-img-col" data-aos="fade-right" data-aos-delay="80">
           <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=700&q=85" alt="Anillos de boda" loading="lazy"/>
-          <div class="rsvp-img-badge">
-            <i class="fa-solid fa-heart"></i>
-            <span>21 de Mayo 2028</span>
-          </div>
+          <div class="rsvp-img-badge"><i class="fa-solid fa-heart"></i><span>21 de Mayo 2028</span></div>
         </div>
-
         <div class="rsvp-form-col" data-aos="fade-left" data-aos-delay="120">
           <div id="rsvp-form-box">
             <div class="form-group">
@@ -912,7 +889,7 @@
         <div class="ws-icon-ring"><i class="fa-solid fa-camera-retro"></i></div>
         <p class="section-label">Comparte el momento</p>
         <h2 class="section-title">Comparte tus fotos</h2>
-        <p class="section-text">¡Queremos ver el día desde tus ojos! Sube tus fotos a WedShoots para que todos los invitados puedan disfrutarlos juntos.</p>
+        <p class="section-text">¡Queremos ver el día desde tus ojos! Sube tus fotos a WedShoots y compártelas con todos los invitados.</p>
         <div class="ws-feats">
           <div class="ws-feat"><i class="fa-solid fa-upload"></i><span>Sube fotos</span></div>
           <div class="ws-feat"><i class="fa-solid fa-users"></i><span>Álbum compartido</span></div>
@@ -927,7 +904,7 @@
   </section>
 
   <!-- ═══════════════════════════════════════════
-       FRASES ROMÁNTICAS FLOTANTES
+       FRASES ROMÁNTICAS
   ═══════════════════════════════════════════ -->
   <section id="frases" class="section-frases">
     <div class="container frases-inner">
@@ -959,7 +936,6 @@
       <nav class="footer-nav">
         <a href="#historia">Historia</a>
         <a href="#novios">Nosotros</a>
-        <a href="#nuestra-cancion">Canción</a>
         <a href="#itinerario">Evento</a>
         <a href="#padrinos">Padrinos</a>
         <a href="#galeria">Galería</a>
